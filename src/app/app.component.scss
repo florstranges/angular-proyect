@@ -1,0 +1,23 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "toolbar toolbar toolbar toolbar"
+    "navbar wrapper wrapper wrapper"
+    "navbar wrapper wrapper wrapper"
+    "footer footer footer footer";
+}
+
+.toolbar{
+    grid-area: toolbar;
+}
+.navbar{
+    grid-area: navbar;
+}
+.wrapper{
+    grid-area: wrapper;
+}
+.footer{
+    grid-area: footer;
+}
